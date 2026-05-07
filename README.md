@@ -178,3 +178,14 @@ User fills form
 - Expiry / CVV fields use a two-column grid; Amount / Currency use a 3-column grid
 
 ---
+## 🔮 Future Improvements
+ 
+- **Skeleton loaders** — show card and form skeletons during initial hydration
+- **Card flip animation** — flip card to show CVV on the back when the CVV field is focused
+- **More currencies** — EUR, GBP, AED, etc.
+- **Receipt download** — generate a PDF receipt on success
+- **Dark/light theme toggle**
+- **Unit tests** — Jest + React Testing Library for `cardUtils`, `useFormValidation`, and `usePayment`
+- **E2E tests** — Playwright for the full payment flow
+- **Rate limiting** — add IP-based rate limiting on the API route for production hardening
+---
